@@ -1,0 +1,63 @@
+.navStyle{
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+    font-size: 33px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+.navStyle2{
+    width: 100%;
+    padding: 20px;
+    font-size: 33px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    transition: linear 0.2s;
+}
+.carStyle{
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+.carStyle2{
+    display: flex;
+    gap: 20px;
+    color: black;
+}
+@media only screen and (max-width:415px) {
+    .navStyle {
+        max-width: 414px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        align-items: center;
+    }
+    .navStyle2{
+        max-width: 414px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        align-items: center;
+        background-color: white;
+    }
+.carStyle,.carStyle2{
+    display: flex;
+    gap: 20px;
+}
+    .logo img {
+        height: 20px;
+    }
+    .search, .bars{
+        font-size: 15px;
+    }
+}

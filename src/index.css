@@ -1,0 +1,18 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+@media (max-width:414px) {
+   *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 414px;
+   }
+   body{
+    overflow-x: hidden;
+   }
+}

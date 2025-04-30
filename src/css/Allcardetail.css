@@ -1,0 +1,222 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.allData {
+    padding-top: 92px;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    overlay: none;
+}
+
+.navbar1 {
+    width: 100%;
+    padding: 25px;
+    position: fixed;
+    top: 0px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px -4px black;
+}
+
+.navbar1 :nth-child(1) {
+    height: 40px;
+}
+
+.navbar1 :nth-child(2) {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.sidelist {
+    width: 23%;
+    padding: 0px 0px 50px 90px;
+    text-transform: capitalize;
+    overflow-y: auto;
+}
+
+.sidelist::-webkit-scrollbar,
+.serviceList2::-webkit-scrollbar {
+    width: 6px;
+    background-color: #a19e9e;
+}
+
+.sidelist::-webkit-scrollbar-thumb,
+.serviceList2::-webkit-scrollbar-thumb {
+    background: #797f89;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.sidelist::-webkit-scrollbar-button,
+.serviceList2::-webkit-scrollbar-button {
+    background: #797568;
+    height: 10px;
+}
+
+.serviceList1,
+.aboutlist1 {
+    display: none;
+}
+
+.serviceList2,
+.aboutlist2 {
+    display: inline;
+}
+
+.serviceList2,
+.aboutlist2 {
+    padding: 30px 30px 40px 40px;
+    position: absolute;
+    height: 100vh;
+    left: 22.5%;
+    top: 0px;
+    background-color: #ffffff;
+    overlay: none;
+    overflow-y: auto;
+}
+
+.serviceList2>ul li,
+.aboutlist2>ul li {
+    list-style: none;
+}
+
+.listItem>li {
+    color: #7A8084;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 70px;
+    font-weight: 600;
+    list-style: none;
+    cursor: pointer;
+}
+.menu-bar-car-cantainer {
+    width: 80%;
+    height: auto;
+    background-color: #e8edf0;
+    overflow-y: auto;
+}
+
+.car-models {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.menu-intro-pera {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-bar-car-cantainer .menu-intro-pera>p {
+    width: 450px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.car-gelary {
+    padding: 0px 16px 64px 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+
+.quick-car-access {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0px;
+}
+
+.car-name {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(56, 55, 55);
+}
+
+.cars-learnmore {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    color: #304FE2;
+}
+@media only screen and (max-width:415px) {
+    .allData {
+        padding-top: 46px;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        overlay: none;
+    }
+
+    .navbar1 {
+        width: 100%;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .navbar1 :nth-child(2) {
+        font-size: 25px;
+    }
+
+    .navbar1 :nth-child(1) {
+        height: 20px;
+    }
+
+    .sidelist {
+        width: 45%;
+        padding: 0px 0px 0px 10px;
+    }
+    .listItem > li{
+        font-size: 16pxpx; 
+        line-height: 40px;
+        font-weight: 400;
+        list-style: none; 
+        cursor: pointer;   
+    }
+    .menu-bar-car-cantainer {
+        width: 55%;
+    }
+    .car-models {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .car-models {
+        font-size: 20px;
+    }
+    
+    .menu-bar-car-cantainer .menu-intro-pera>p{
+        font-size: 14px;
+        width: 85%;
+    }
+    
+    .car-gelary {
+        padding: 0px;
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    .car-gelary img {
+        width: 100%;
+    }
+    .quick-car-access {
+        padding:  0px;
+    }
+    
+    .car-name {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .cars-learnmore {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
