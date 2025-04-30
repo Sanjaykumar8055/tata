@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tata/static/css/main.6acc1649.css",
-    "main.js": "/tata/static/js/main.b32193e2.js",
+    "main.js": "/tata/static/js/main.0f27a941.js",
     "static/css/133.efc88ed5.chunk.css": "/tata/static/css/133.efc88ed5.chunk.css",
     "static/js/133.119f3b73.chunk.js": "/tata/static/js/133.119f3b73.chunk.js",
     "static/js/351.525ca893.chunk.js": "/tata/static/js/351.525ca893.chunk.js",
@@ -73,13 +73,13 @@
     "index.html": "/tata/index.html",
     "static/media/Tata_Sons_Logo_48_32.webp": "/tata/static/media/Tata_Sons_Logo_48_32.cc9f6253dc5d3540d89b.webp",
     "main.6acc1649.css.map": "/tata/static/css/main.6acc1649.css.map",
-    "main.b32193e2.js.map": "/tata/static/js/main.b32193e2.js.map",
+    "main.0f27a941.js.map": "/tata/static/js/main.0f27a941.js.map",
     "133.efc88ed5.chunk.css.map": "/tata/static/css/133.efc88ed5.chunk.css.map",
     "133.119f3b73.chunk.js.map": "/tata/static/js/133.119f3b73.chunk.js.map",
     "351.525ca893.chunk.js.map": "/tata/static/js/351.525ca893.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6acc1649.css",
-    "static/js/main.b32193e2.js"
+    "static/js/main.0f27a941.js"
   ]
 }
